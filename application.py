@@ -6,7 +6,7 @@ application = Flask(__name__)
 def hello_world():
     OhHi = "Oh, so you were looking to run a report? Well, I can't do that but I can ask how you are doing today! How are you?"
     MkWv = "Also, let's make waves!"
-    wave = MyWaves(3)
+    wave = MyWaves(25)
     wave.SquareWave()
     wave.ApproxSqWave()
     FigOut = wave.PlotWaves()

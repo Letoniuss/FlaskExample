@@ -6,8 +6,8 @@ import io
 
 class MyWaves:
     def __init__(self, NumHarmonics = 5):
-        self.NumPts =NumPts = 100000
-        self.Periods = Periods = 3
+        self.NumPts =NumPts = 2000000
+        self.Periods = Periods = 5
         self.w = w = 1.0e3  # hertz
 
         self.tLength = tLength = Periods/w  # seconds
